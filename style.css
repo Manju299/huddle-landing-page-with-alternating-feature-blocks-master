@@ -1,0 +1,26 @@
+
+
+:root{
+    --clr-primary-pink:hsl(322, 100%, 66%);
+    --clr-pale:hsl(193, 100%, 96%);
+    --clr-dark-Cyan:hsl(192, 100%, 9%);
+    --clr-grayish-blue:hsl(208, 11%, 55%);
+
+}
+
+.main{
+    display: flex;
+    place-content: center;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
